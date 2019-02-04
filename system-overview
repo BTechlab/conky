@@ -153,7 +153,7 @@ ${color1}[S]+[Shift]+R${alignr}${color2}Restart i3wm${color}
 ${color1}${hr}${color}
 ${color1}[S]+[Shift]+E${alignr}${color2}Stop i3wm${color}
 ${color1}[S]+[Shift]+Q${alignr}${color2}Stop application${color}
-${color1}[S]+x${alignr}${color2}Exit${color}
+${color1}[S]+End${alignr}${color2}Exit${color}
 ${color1}${hr}${color}
 ${color1}${execi 6000 lsb_release -d | grep 'Descr'|awk {'print $2 " " $3" " $4" " $5'}}${alignr}${execi 6000 lsb_release -a | grep 'Release'|awk {'print $2""$3""$4""$5'}}${color}
 ]];
